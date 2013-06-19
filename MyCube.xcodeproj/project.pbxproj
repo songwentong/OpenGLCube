@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E40877D01560F84500F0D2A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40877CF1560F84500F0D2A7 /* UIKit.framework */; };
+		E40877D21560F84500F0D2A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40877D11560F84500F0D2A7 /* Foundation.framework */; };
+		E40877D41560F84500F0D2A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40877D31560F84500F0D2A7 /* CoreGraphics.framework */; };
+		E40877DA1560F84500F0D2A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E40877D81560F84500F0D2A7 /* InfoPlist.strings */; };
+		E40877DC1560F84500F0D2A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E40877DB1560F84500F0D2A7 /* main.m */; };
+		E40877ED1560F86C00F0D2A7 /* ParseImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E40877EB1560F86C00F0D2A7 /* ParseImage.m */; };
+		E40877EF1560F87200F0D2A7 /* CubeExample.mm in Sources */ = {isa = PBXBuildFile; fileRef = E40877EE1560F87200F0D2A7 /* CubeExample.mm */; };
+		E40877F21560F87A00F0D2A7 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = E40877F11560F87A00F0D2A7 /* EAGLView.m */; };
+		E40877F81560F88600F0D2A7 /* cube_example.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E40877F31560F88600F0D2A7 /* cube_example.jpg */; };
+		E40877F91560F88600F0D2A7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E40877F41560F88600F0D2A7 /* Default.png */; };
+		E40877FA1560F88600F0D2A7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E40877F51560F88600F0D2A7 /* Default@2x.png */; };
+		E40877FB1560F88600F0D2A7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E40877F61560F88600F0D2A7 /* Icon.png */; };
+		E40877FC1560F88600F0D2A7 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E40877F71560F88600F0D2A7 /* Icon@2x.png */; };
+		E40877FF1560F8AA00F0D2A7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40877FE1560F8AA00F0D2A7 /* OpenGLES.framework */; };
+		E40878011560F8AF00F0D2A7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40878001560F8AF00F0D2A7 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E40877CB1560F84500F0D2A7 /* MyCube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40877CF1560F84500F0D2A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E40877D11560F84500F0D2A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E40877D31560F84500F0D2A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E40877D71560F84500F0D2A7 /* MyCube-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyCube-Info.plist"; sourceTree = "<group>"; };
+		E40877D91560F84500F0D2A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E40877DB1560F84500F0D2A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E40877DD1560F84500F0D2A7 /* MyCube-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyCube-Prefix.pch"; sourceTree = "<group>"; };
+		E40877EA1560F86C00F0D2A7 /* ParseImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseImage.h; sourceTree = "<group>"; };
+		E40877EB1560F86C00F0D2A7 /* ParseImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseImage.m; sourceTree = "<group>"; };
+		E40877EC1560F86C00F0D2A7 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		E40877EE1560F87200F0D2A7 /* CubeExample.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CubeExample.mm; sourceTree = "<group>"; };
+		E40877F01560F87A00F0D2A7 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		E40877F11560F87A00F0D2A7 /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		E40877F31560F88600F0D2A7 /* cube_example.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cube_example.jpg; path = MyCube/cube_example.jpg; sourceTree = "<group>"; };
+		E40877F41560F88600F0D2A7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = MyCube/Default.png; sourceTree = "<group>"; };
+		E40877F51560F88600F0D2A7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "MyCube/Default@2x.png"; sourceTree = "<group>"; };
+		E40877F61560F88600F0D2A7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = MyCube/Icon.png; sourceTree = "<group>"; };
+		E40877F71560F88600F0D2A7 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "MyCube/Icon@2x.png"; sourceTree = "<group>"; };
+		E40877FE1560F8AA00F0D2A7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		E40878001560F8AF00F0D2A7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E40877C81560F84500F0D2A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40878011560F8AF00F0D2A7 /* QuartzCore.framework in Frameworks */,
+				E40877FF1560F8AA00F0D2A7 /* OpenGLES.framework in Frameworks */,
+				E40877D01560F84500F0D2A7 /* UIKit.framework in Frameworks */,
+				E40877D21560F84500F0D2A7 /* Foundation.framework in Frameworks */,
+				E40877D41560F84500F0D2A7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E40877C01560F84500F0D2A7 = {
+			isa = PBXGroup;
+			children = (
+				E40877FD1560F88D00F0D2A7 /* Resources */,
+				E40877D51560F84500F0D2A7 /* MyCube */,
+				E40877CE1560F84500F0D2A7 /* Frameworks */,
+				E40877CC1560F84500F0D2A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E40877CC1560F84500F0D2A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E40877CB1560F84500F0D2A7 /* MyCube.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E40877CE1560F84500F0D2A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E40878001560F8AF00F0D2A7 /* QuartzCore.framework */,
+				E40877FE1560F8AA00F0D2A7 /* OpenGLES.framework */,
+				E40877CF1560F84500F0D2A7 /* UIKit.framework */,
+				E40877D11560F84500F0D2A7 /* Foundation.framework */,
+				E40877D31560F84500F0D2A7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E40877D51560F84500F0D2A7 /* MyCube */ = {
+			isa = PBXGroup;
+			children = (
+				E40877EA1560F86C00F0D2A7 /* ParseImage.h */,
+				E40877EB1560F86C00F0D2A7 /* ParseImage.m */,
+				E40877EC1560F86C00F0D2A7 /* Utils.h */,
+				E40877F01560F87A00F0D2A7 /* EAGLView.h */,
+				E40877F11560F87A00F0D2A7 /* EAGLView.m */,
+				E40877EE1560F87200F0D2A7 /* CubeExample.mm */,
+				E40877D61560F84500F0D2A7 /* Supporting Files */,
+			);
+			path = MyCube;
+			sourceTree = "<group>";
+		};
+		E40877D61560F84500F0D2A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E40877D71560F84500F0D2A7 /* MyCube-Info.plist */,
+				E40877D81560F84500F0D2A7 /* InfoPlist.strings */,
+				E40877DB1560F84500F0D2A7 /* main.m */,
+				E40877DD1560F84500F0D2A7 /* MyCube-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E40877FD1560F88D00F0D2A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E40877F31560F88600F0D2A7 /* cube_example.jpg */,
+				E40877F41560F88600F0D2A7 /* Default.png */,
+				E40877F51560F88600F0D2A7 /* Default@2x.png */,
+				E40877F61560F88600F0D2A7 /* Icon.png */,
+				E40877F71560F88600F0D2A7 /* Icon@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E40877CA1560F84500F0D2A7 /* MyCube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40877E31560F84500F0D2A7 /* Build configuration list for PBXNativeTarget "MyCube" */;
+			buildPhases = (
+				E40877C71560F84500F0D2A7 /* Sources */,
+				E40877C81560F84500F0D2A7 /* Frameworks */,
+				E40877C91560F84500F0D2A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCube;
+			productName = MyCube;
+			productReference = E40877CB1560F84500F0D2A7 /* MyCube.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E40877C21560F84500F0D2A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E40877C51560F84500F0D2A7 /* Build configuration list for PBXProject "MyCube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E40877C01560F84500F0D2A7;
+			productRefGroup = E40877CC1560F84500F0D2A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E40877CA1560F84500F0D2A7 /* MyCube */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E40877C91560F84500F0D2A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40877DA1560F84500F0D2A7 /* InfoPlist.strings in Resources */,
+				E40877F81560F88600F0D2A7 /* cube_example.jpg in Resources */,
+				E40877F91560F88600F0D2A7 /* Default.png in Resources */,
+				E40877FA1560F88600F0D2A7 /* Default@2x.png in Resources */,
+				E40877FB1560F88600F0D2A7 /* Icon.png in Resources */,
+				E40877FC1560F88600F0D2A7 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E40877C71560F84500F0D2A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40877DC1560F84500F0D2A7 /* main.m in Sources */,
+				E40877ED1560F86C00F0D2A7 /* ParseImage.m in Sources */,
+				E40877EF1560F87200F0D2A7 /* CubeExample.mm in Sources */,
+				E40877F21560F87A00F0D2A7 /* EAGLView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E40877D81560F84500F0D2A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E40877D91560F84500F0D2A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E40877E11560F84500F0D2A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: dongyin liu (8C3X4XWM6M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: dongyin liu (8C3X4XWM6M)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "A5145E87-DFB9-4DA5-B120-BE0BB5B2DA88";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A5145E87-DFB9-4DA5-B120-BE0BB5B2DA88";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E40877E21560F84500F0D2A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: dongyin liu (8C3X4XWM6M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: dongyin liu (8C3X4XWM6M)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "A5145E87-DFB9-4DA5-B120-BE0BB5B2DA88";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A5145E87-DFB9-4DA5-B120-BE0BB5B2DA88";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E40877E41560F84500F0D2A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: dongyin liu (8C3X4XWM6M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: dongyin liu (8C3X4XWM6M)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyCube/MyCube-Prefix.pch";
+				INFOPLIST_FILE = "MyCube/MyCube-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A5145E87-DFB9-4DA5-B120-BE0BB5B2DA88";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A5145E87-DFB9-4DA5-B120-BE0BB5B2DA88";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E40877E51560F84500F0D2A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: dongyin liu (8C3X4XWM6M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: dongyin liu (8C3X4XWM6M)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyCube/MyCube-Prefix.pch";
+				INFOPLIST_FILE = "MyCube/MyCube-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A5145E87-DFB9-4DA5-B120-BE0BB5B2DA88";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A5145E87-DFB9-4DA5-B120-BE0BB5B2DA88";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E40877C51560F84500F0D2A7 /* Build configuration list for PBXProject "MyCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40877E11560F84500F0D2A7 /* Debug */,
+				E40877E21560F84500F0D2A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E40877E31560F84500F0D2A7 /* Build configuration list for PBXNativeTarget "MyCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40877E41560F84500F0D2A7 /* Debug */,
+				E40877E51560F84500F0D2A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E40877C21560F84500F0D2A7 /* Project object */;
+}
