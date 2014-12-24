@@ -291,6 +291,7 @@
 		E40877E41560F84500F0D2A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: dongyin liu (8C3X4XWM6M)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: dongyin liu (8C3X4XWM6M)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -306,6 +307,7 @@
 		E40877E51560F84500F0D2A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: dongyin liu (8C3X4XWM6M)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: dongyin liu (8C3X4XWM6M)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

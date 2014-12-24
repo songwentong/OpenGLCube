@@ -156,14 +156,10 @@ static ParseImage *parseImage;
 - (void)dealloc
 {
 	clearOpenGL();
-	[_context release];
-	[_window release];
-	[parseImage release];
 	
 	eagl = nil;
 	parseImage = nil;
 	
-    [super dealloc];
 }
 
 #pragma mark - 

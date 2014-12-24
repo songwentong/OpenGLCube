@@ -76,7 +76,6 @@
 {
 	free(_data);
 	
-	[super dealloc];
 }
 
 @end
