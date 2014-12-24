@@ -38,7 +38,7 @@ static ParseImage *parseImage;
 //
 //**********************************************************************************************************
 
-- (id)init
+- (instancetype)init
 {
 	if ((self = [super init]))
 	{
@@ -48,10 +48,8 @@ static ParseImage *parseImage;
 		// If the color format here is set to kEAGLColorFormatRGB565, you'll not be able
 		// to use texture with alpha in this EAGLLayer.
         eaglLayer.opaque = YES;
-		eaglLayer.drawableProperties = [NSDictionary dictionaryWithObjectsAndKeys:
-										[NSNumber numberWithBool:NO], kEAGLDrawablePropertyRetainedBacking,
-										kEAGLColorFormatRGBA8, kEAGLDrawablePropertyColorFormat,
-										nil];
+		eaglLayer.drawableProperties = @{kEAGLDrawablePropertyRetainedBacking: @NO,
+										kEAGLDrawablePropertyColorFormat: kEAGLColorFormatRGBA8};
 		
 		// Set this EAGLView to be accessed later on.
 		eagl = self;

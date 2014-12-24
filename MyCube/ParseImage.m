@@ -22,7 +22,7 @@
 //
 //**********************************************************************************************************
 
-- (id) initWithImage:(UIImage *)uiImage
+- (instancetype) initWithImage:(UIImage *)uiImage
 {
 	if ((self = [self init]))
 	{

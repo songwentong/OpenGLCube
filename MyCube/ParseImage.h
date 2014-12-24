@@ -45,6 +45,6 @@
  *	@param			uiImage
  *					The UIImage instance to be parsed.
  */
-- (id) initWithImage:(UIImage *)uiImage;
+- (instancetype) initWithImage:(UIImage *)uiImage;
 
 @end
