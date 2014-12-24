@@ -14,20 +14,20 @@
 @interface ParseImage : NSObject
 {
 @private
-	int					_width;
-	int					_height;
+	size_t					_width;
+	size_t					_height;
 	void				*_data;
 }
 
 /*!
  *	@discussion		The width in pixels.
  */
-@property (nonatomic, readonly) int width;
+@property (nonatomic, readonly) size_t width;
 
 /*!
  *	@discussion		The height in pixels.
  */
-@property (nonatomic, readonly) int height;
+@property (nonatomic, readonly) size_t height;
 
 /*!
  *	@discussion		The array of pixels.
