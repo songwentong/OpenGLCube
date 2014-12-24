@@ -124,11 +124,8 @@ static ParseImage *parseImage;
 	CGRect rect = [[UIScreen mainScreen] bounds];	
 	_window = [[UIWindow alloc] initWithFrame:rect];
 	
-	if(!(self = [super initWithFrame:rect]))
-	{
-		[self release];
-		return;
-	}
+    
+
     self.frame = rect;
 	
 	// Makes that UIWindow the key window and show it. Additionaly add this UIView to it.
