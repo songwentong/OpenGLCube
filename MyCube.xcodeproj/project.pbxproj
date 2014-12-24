@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E170B5101A4A8ECE00665D9B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E170B50F1A4A8ECE00665D9B /* Default-568h@2x.png */; };
 		E40877D01560F84500F0D2A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40877CF1560F84500F0D2A7 /* UIKit.framework */; };
 		E40877D21560F84500F0D2A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40877D11560F84500F0D2A7 /* Foundation.framework */; };
 		E40877D41560F84500F0D2A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40877D31560F84500F0D2A7 /* CoreGraphics.framework */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E170B50F1A4A8ECE00665D9B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E40877CB1560F84500F0D2A7 /* MyCube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40877CF1560F84500F0D2A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E40877D11560F84500F0D2A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -67,6 +69,7 @@
 		E40877C01560F84500F0D2A7 = {
 			isa = PBXGroup;
 			children = (
+				E170B50F1A4A8ECE00665D9B /* Default-568h@2x.png */,
 				E40877FD1560F88D00F0D2A7 /* Resources */,
 				E40877D51560F84500F0D2A7 /* MyCube */,
 				E40877CE1560F84500F0D2A7 /* Frameworks */,
@@ -186,6 +189,7 @@
 				E40877F91560F88600F0D2A7 /* Default.png in Resources */,
 				E40877FA1560F88600F0D2A7 /* Default@2x.png in Resources */,
 				E40877FB1560F88600F0D2A7 /* Icon.png in Resources */,
+				E170B5101A4A8ECE00665D9B /* Default-568h@2x.png in Resources */,
 				E40877FC1560F88600F0D2A7 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
