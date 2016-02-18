@@ -226,7 +226,10 @@ static ParseImage *parseImage;
     
     if ([recognizer isKindOfClass:[UIPinchGestureRecognizer class]]) {
         UIPinchGestureRecognizer *pin = (UIPinchGestureRecognizer*)recognizer;
-        setScale(pin.scale);
+
+        setScale(_scale*pin.scale);
+        pin.scale = 1;
+//        setScale(pin.scale);
     } // end pin scale
     
     if ([recognizer isKindOfClass:[UIPanGestureRecognizer class]]) {
