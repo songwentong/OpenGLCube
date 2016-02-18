@@ -677,7 +677,7 @@ void moveObj (float x, float y)
 
 void setScale(float s)
 {
-    _scale = s;
+    _scale = MAX(MIN(2, s), 0.1);
     
 }
 void addSpeed(int x, int y)
