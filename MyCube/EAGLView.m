@@ -58,6 +58,9 @@ static ParseImage *parseImage;
 		
 		// Parses this image which is in main bundle.
 		parseImage = [[ParseImage alloc] initWithImage:[UIImage imageNamed:@"cube_example.jpg"]];
+        
+        
+
     }
 	
     return self;
@@ -131,7 +134,11 @@ static ParseImage *parseImage;
 	
 	// Makes that UIWindow the key window and show it. Additionaly add this UIView to it.
 	[_window makeKeyAndVisible];
-	[_window addSubview:self];
+//	[_window addSubview:self];
+    UIViewController *vc = [UIViewController new];
+    vc.view = self;
+    _window.rootViewController = vc;
+    
 	
 	// Creates the EAGLContext and set it as the current one.
 	_context = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2];

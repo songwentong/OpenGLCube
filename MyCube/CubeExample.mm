@@ -16,11 +16,11 @@
 
 static float rotationX = 0;
 static float rotationY = 0;
-float _speedX;
-float _speedY;
-float _scale;
-float _positionX;
-float _positionY;
+static float _speedX;
+static float _speedY;
+static float _scale;
+static float _positionX;
+static float _positionY;
 
 /*
 float _rotationX;
@@ -29,32 +29,32 @@ float _rotationY;
 */
 
 // Sizes. Width and Height.
-float		_surfaceWidth;
-float		_surfaceHeight;
+static float		_surfaceWidth;
+static float		_surfaceHeight;
 
 // Frame and Render buffer names/ids.
-GLuint		_framebuffer;
-GLuint		_colorbuffer;
-GLuint		_depthbuffer;
+static GLuint		_framebuffer;
+static GLuint		_colorbuffer;
+static GLuint		_depthbuffer;
 
 // Program Object name/id.
-GLuint		_program;
+static GLuint		_program;
 
 // Informations about the mesh.
-int			_stride;
-int			_structureCount;
-int			_indicesCount;
+static int			_stride;
+static int			_structureCount;
+static int			_indicesCount;
 
 // Buffer Objects names/ids.
-GLuint		_boStructure;
-GLuint		_boIndices;
+static GLuint		_boStructure;
+static GLuint		_boIndices;
 
 // Texture Object name/id.
-GLuint		_texture;
+static GLuint		_texture;
 
 // Attributes and Uniforms locations.
-GLuint		_uniforms[2];
-GLuint		_attributes[2];
+static GLuint		_uniforms[2];
+static GLuint		_attributes[2];
 
 #pragma mark -
 #pragma mark New Methods
