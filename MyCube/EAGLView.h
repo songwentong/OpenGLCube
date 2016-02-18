@@ -6,7 +6,6 @@
 #import <OpenGLES/EAGLDrawable.h>
 #import <OpenGLES/ES2/gl.h>
 #import <OpenGLES/ES2/glext.h>
-
 #import "ParseImage.h"
 
 @class EAGLContext;

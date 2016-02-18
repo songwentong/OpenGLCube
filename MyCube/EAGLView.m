@@ -3,6 +3,7 @@
 #import "EAGLView.h"
 #import "CubeExample.mm"
 
+@import UIKit;
 #pragma mark -
 #pragma mark Global Properties
 //**********************************************************************************************************
@@ -225,7 +226,7 @@ static ParseImage *parseImage;
         UIPanGestureRecognizer *pan = (UIPanGestureRecognizer*)recognizer;
         CGPoint p = [pan translationInView:self];
         NSLog(@"%f,%f",p.x,p.y);
-        move(p.x, -p.y);
+        moveObj(p.x, -p.y);
     }
 }
 

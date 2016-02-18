@@ -669,7 +669,7 @@ void resetRotationAndSpeed()
     _positionY = 0;
     //    _scaleY = 1;
 }
-void move (float x, float y)
+void moveObj (float x, float y)
 {
     _positionX = x/100;
     _positionY = y/100;

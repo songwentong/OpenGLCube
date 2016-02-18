@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "32391BA164C930FBA1E787E80010AFDF6C8D483C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "b662177a-c93e-4007-8bf3-a548650b0678++7638" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "b662177a-c93e-4007-8bf3-a548650b0678++7638" : 0,
+    "32391BA164C930FBA1E787E80010AFDF6C8D483C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5922B12D-EA17-4462-A283-BD633E63EA9B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "b662177a-c93e-4007-8bf3-a548650b0678++7638" : "OpenGLCube\/MyCube\/",
+    "32391BA164C930FBA1E787E80010AFDF6C8D483C" : "OpenGLCube"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MyCube",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MyCube.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/swtlovewtt\/OpenGLCube.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "32391BA164C930FBA1E787E80010AFDF6C8D483C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/10.10.11.8\/project3",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b662177a-c93e-4007-8bf3-a548650b0678++7638"
+    }
+  ]
+}
